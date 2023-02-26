@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat&family=Pacifico&family=Poppins:wght@200&family=Staatliches&display=swap');
+
+body {
+    background-color: #EAEAEA;
+    font-family: 'Poppins', sans-serif;
+    color: #2d2d2d;
+    font-size: 14px;
+}
+
+.cari {
+    font-size: 14px;
+}
+
+@media screen and (min-width: 994px) {
+.cari {
+    width: 350px;
+}
+}
+
+@media screen and (max-width: 994px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    }
+
+/* GAMBAR KEDAI */
+.gambar-kedai {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.gambar-kedai:hover {
+    transform: scale(.9);
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+}
+
+.row-container {
+    background-color: #FFF;
+    margin: 0;
+}
+
+.form-floating .form-control:focus {
+    border: 2px solid #000;
+    box-shadow: none;
+}
+
+/* END GAMBAR KEDAI */

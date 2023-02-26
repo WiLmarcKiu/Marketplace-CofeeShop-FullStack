@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat&family=Pacifico&family=Poppins:wght@200&family=Staatliches&display=swap');
+
+body {
+    background-color: #EAEAEA;
+    font-family: 'Poppins', sans-serif;
+    color: #2d2d2d;
+    font-size: 14px;
+}
+
+.cari {
+    font-size: 14px;
+}
+
+@media screen and (min-width: 994px) {
+.cari {
+    width: 350px;
+}
+}
+
+@media screen and (max-width: 994px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    }
+
+/* KERANJANG */
+
+.row-keranjang {
+    background-color: #FFF;
+    margin: 0;
+    padding: 5px;
+    padding-top: 15px;
+}
+
+/* END KERANJANG */
+
+/* GAMBAR KERANJANG */
+.img-keranjang {
+    width: 70px;
+    height: 70px;
+}
+/* END GAMBAR KERANJANG */
+
+/* THEAD TABLE */
+.th-header {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+/* END THEAD TABLE */
+
+/* TABLE CHECKOUT */
+@media only screen and (min-width: 768px) {
+    #table-checkout {
+        width: 40%;
+    }
+}
+/* END TABLE CHECKOUT */
+
+/* INPUT CHECKOUT */
+.row-checkout {
+    background-color: #FFF;
+    margin: 16px 0;
+    padding: 5px;
+    padding-top: 16px;
+}
+/* END INPUT CHECKOUT */
+
+/* GARIS CHECKOUT */
+.garis-checkout {
+    border-bottom: 2px solid #2D2D2D;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+/* END GARIS CHECKOUT */
